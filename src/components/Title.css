@@ -1,0 +1,23 @@
+.title {
+    width: 100vw;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title > h2 {
+    color: #f2f200;
+    font-size: 100px;
+    font-family: 'Courgette', cursive;
+    transform: translateY(15vh);
+    z-index: 3;
+}
+
+.title > h1 {
+    font-size: 200px;
+    font-weight: 500;
+    color: #421b5b;
+}
