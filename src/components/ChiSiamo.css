@@ -1,0 +1,69 @@
+.chi-siamo {
+    width: 100vw;
+    height: 130vh;
+    min-height: 1700px;
+
+    background-color: #0d000f;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.chi-siamo>h1 {
+    width: 90vw;
+
+    font-size: 100px;
+    font-weight: 500;
+    text-align: left;
+
+    margin: 100px 0;
+}
+
+.chi-siamo>p {
+    width: 90vw;
+
+    font-size: 36px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.chi-siamo-desc {
+    width: 90vw;
+    height: 400px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chi-siamo-desc>p {
+    width: 40%;
+    height: 100%;
+
+    font-size: 36px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.chi-siamo-desc>img {
+    width: 800px;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #B1B2B5;
+}
+
+.chi-siamo-reversed {
+    flex-direction: row-reverse;
+}
+
+.chi-siamo-reversed>p {
+    text-align: left;
+}
