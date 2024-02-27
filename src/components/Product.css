@@ -8,6 +8,12 @@
     justify-content: center;
 
     margin: 0 50px;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 150ms;
+}
+
+.product:hover {
+    scale: 115%;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 150ms;
 }
 
 .product>img {
